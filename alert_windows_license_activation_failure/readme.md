@@ -1,0 +1,1 @@
+Overrides built in rule 60646 to create an alert (and email, if level=12 and server is using default email threshold) if license activation (slui.exe) fails. This will most likely hit when you have unlicensed Windows in your environment.
