@@ -1,0 +1,8 @@
+<group name="syscollector,">
+    <rule id="100005" level="12">
+          <if_sid>550,554,555,553</if_sid>
+          <field name="file">C:\\program files\\elastic\\agent</field>
+          <description>Elastic Agent detected</description>
+        </rule>
+
+</group>

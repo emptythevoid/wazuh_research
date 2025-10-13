@@ -1,0 +1,13 @@
+ <command>
+        <name>remove-elastic</name>
+        <executable>remove_elastic_agent.bat</executable>
+        <timeout_allowed>yes</timeout_allowed>
+  </command>
+
+  <active-response>
+        <command>remove-elastic</command>
+        <location>local</location>
+        <rules_id>100005</rules_id>
+        <timeout>60</timeout>
+  </active-response>
+

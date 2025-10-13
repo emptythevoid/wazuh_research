@@ -1,0 +1,6 @@
+<syscheck>
+  <disabled>no</disabled>
+  <directories check_all="yes" realtime="yes">C:\Program Files\elastic\agent</directories>
+  <scan_on_start>yes</scan_on_start>
+</syscheck>
+
