@@ -1,0 +1,16 @@
+  <command>
+        <name>disable_flipper</name>
+        <executable>disable_flipper.bat</executable>
+        <timeout_allowed>yes</timeout_allowed>
+  </command>
+
+
+
+
+  <active-response>
+        <command>disable_flipper</command>
+        <location>local</location>
+        <rules_id>100009</rules_id>
+        <timeout>60</timeout>
+  </active-response>
+
