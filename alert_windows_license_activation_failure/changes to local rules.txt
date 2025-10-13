@@ -1,0 +1,9 @@
+<group name="windows, windows_application">
+  <rule id="60646" level="12" overwrite="yes">
+    <field name="win.system.providerName">^Microsoft-Windows-Security-SPP$</field>
+    <field name="win.system.eventID">^8198$</field>
+    <options>no_full_log</options>
+    <description>License activation (slui.exe) failed.</description>
+  </rule>
+</group>
+
