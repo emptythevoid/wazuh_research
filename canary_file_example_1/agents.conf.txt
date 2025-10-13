@@ -1,0 +1,8 @@
+<syscheck>
+  <disabled>no</disabled>
+  <directories realtime="yes" report_changes="yes" whodata="yes">C:\users\*\Documents\HANDS Briefcase\do_not_delete.pdf</directories>
+  <directories realtime="yes" report_changes="yes" whodata="yes" recursion_level="1">C:\users\*\Documents\HANDS Briefcase\*\do_not_delete.pdf</directories>
+
+  <scan_on_start>yes</scan_on_start>
+</syscheck>
+

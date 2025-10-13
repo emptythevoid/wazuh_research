@@ -1,0 +1,8 @@
+<group name="syscollector,">
+    <rule id="100006" level="12">
+          <if_sid>550,554,555,553</if_sid>
+          <field name="file">\.do_not_delete.pdf</field>
+          <description>A Canary file has been tampered with. Please check Event for details</description>
+        </rule>
+</group>
+
