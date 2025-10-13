@@ -1,0 +1,9 @@
+<group name="syscollector,">
+    <rule id="100009" level="12">
+        <if_sid>60227</if_sid>
+        <field name="win.system.eventID">^6416$</field>
+        <match>USB\\VID_0483&PID_5740</match>
+        <description>Suspicious activity - Flipper Zero detected on USB</description>
+    </rule>
+</group>
+

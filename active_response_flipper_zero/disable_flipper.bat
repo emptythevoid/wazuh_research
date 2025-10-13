@@ -1,0 +1,1 @@
+"C:\windows\sysnative\pnputil.exe" /disable-device /deviceid "USB\VID_0483&PID_5740"
