@@ -4,7 +4,7 @@ Requirements and Limitations:
 
 Requires the group policy "Audit Pnp" be enabled. This allows triggering new device detection in Wazuh's syscollector
 
-Requires agents to have local_internal_options.conf set to allow wazuh_command.remote_commands=1
+Requires agents to have local_internal_options.conf set to allow wazuh_command.remote_commands=1 (can deply using Group Policy)
 
 Requires placing the disable_flipper.bat file into "C:\Program Files (x86)\ossec-agent\active-response\bin" directory (can deploy using Group Policy)
 
